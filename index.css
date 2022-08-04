@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue
+}
+.container{
+    max-width: 1000px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.proimg{
+    width: 120px;
+    height: 120px;
+    border : 3px solid white;
+    border-radius:50% ;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #0e2929;
+}
+.header-contact{
+    float: right;
+    padding: 30px ;
+}
+.header-contact a{
+    text-decoration: none;
+    color: #0e2929;
+    color: black;
+    font-weight: bold;
+}
+ .header-contact a:hover{
+    text-decoration: underline;
+    color:white;
+} 
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+
+}
+.content
+{
+margin-bottom  : 30px;
+}
+.left-div{
+    float: left;
+    width: 50%;
+}
+.right-div{
+    float: left;
+    width:  50%;
+}
+.common-hr{
+    border: solid black 1px;
+    border-radius: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.bottom-container{
+    background-color: rgb(41, 37, 37);
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+} 
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
